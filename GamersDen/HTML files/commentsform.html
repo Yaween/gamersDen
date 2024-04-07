@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<title>Comments Form</title>
+	<link rel="stylesheet" href="commentsform.css">
+	<link rel="stylesheet" href="Externalstylesheet.css">
+</head>
+<body>
+	<header>
+		<!--Navigation bar with logo and list items created.-->
+		<a href="#" class="logo"><img src ="logosnew.png" alt="SportsDen"></a>
+			
+			<ul class="navlinks">
+				<li><a href ="homenew1.html" target="blank"><b>HOME</b></a></li>
+				<li><a class="active" href ="commentsform.html" ><b>COMMENTS</b></a></li>
+				<li><a href ="shop.html"><b>SHOP</b></a></li>
+				<li><a href ="QuizWebPage.html"><b>QUIZ</b></a></li>
+				<li><a href ="Sitemap_New.html"><b>SITEMAP</b></a></li>
+				<li><a href ="Gallery_main.html"><b>GALLERY</b></a></li>
+				<li><a href ="AboutUsWebPage.html"><b>ABOUT US</b></a></li>
+			</ul>
+			<img src = "menubutton.png" alt="Menu" class="menu-button">	
+	</header>
+	<section id="commentcontent">
+		<p id="jumpbottom"><a href="#bottom">Jump To The Bottom &#8595;</a></p>
+	<form id = "myform" action="mailto:yaween2003@gmail.com" method="post" enctype="text/plain">
+		<!--Created the form to submit to a given mail.-->
+		<div class="form">
+		<div class="title-div">
+			<h1>COMMENTS FORM</h1>
+			<p>Tell us about your experience in our website.</p>
+			
+		</div>
+		
+		<div class="name-div" id="one">
+			<!--Question 1.-->
+			<div class="name">On a Scale of 1 to 5 how would you rate your experience in our website:<span class="required">*</span> </div>
+				<div class="scale">
+					<label for="Optionone">	
+						<input type="radio" name="Rating" id="Optionone" value="1/5" required>
+						<span>1</span>
+					</label>
+					<label for="Optiontwo">
+						<input type="radio" name="Rating" id="Optiontwo" value="2/5" required>
+						<span>2</span>
+					</label>
+					<label for="Optionthree">
+						<input type="radio" name="Rating" id="Optionthree" value="3/5" required>
+						<span>3</span>
+					</label>
+					<label for="Optionfour">
+						<input type="radio" name="Rating" id="Optionfour" value="4/5" required>
+						<span>4</span>
+					</label>
+					<label for="Optionfive">
+						<input type="radio" name="Rating" id="Optionfive" value="5/5" required>
+						<span>5</span>
+					</label>
+				
+				</div>
+		</div>
+		
+		<div class="satisfaction-div" >
+			<!--Question 2.-->
+		<div class="option"><label for="Satis">How Satisfied are you with our website:</label><br></div>
+			<div class="scroll">
+			<select name="Satisfaction" id ="Satis">
+				<option value ="Not Selected">-Select-</option>
+				<option value ="Very Satisfied">Very Satisfied</option>
+				<option value ="Satisfied">Satisfied</option>
+				<option value ="Not Bad">Not Bad</option>
+				<option value ="Not Satisfied">Not satisfied</option>
+			</select>
+			</div>
+		</div>
+		
+		<div class="reached-div" >
+			<!--Question 3.-->
+			<div class="name">How did you get to know about our website:</div>
+			<div class="scroll">
+			<select name="Reach us from" id ="reach">
+				<option value ="Not Selected">-Select-</option>
+				<option value ="Social Media">Social Media</option>
+				<option value ="From a friend">From a friend</option>
+				<option value ="By your own">By your own</option>
+			</select>
+			</div>
+		</div>
+		
+		<div class="recommend-div" >
+			<!--Question 4.-->
+			<div class="name">Would you recommend using our website to others:</div>
+			<div class="scale1">
+				<input type="radio" name="Recommendation" id="yes" value="Yes">
+				<label for ="yes">Yes</label><br><br>
+				<input type="radio" name="Recommendation" id="no" value="No">
+				<label for ="no">No</label>
+				<div class ="error"></div>
+			</div>
+		</div>
+		<div class="suggestion-div" >
+			<!--Question 5.-->
+			<div class="name">What do you suggest for us to improve our website experience:</div>
+			<textarea name ="Suggestions" id="feedback1" cols="15" rows="5" placeholder="Enter your opinions here"></textarea>
+		</div>
+		<button type="submit" onclick="validateForm()" value="Submit"> Submit </button> <!--Used onclick function to popup alert messages-->
+		</div>
+		
+	</form>
+		
+</section>
+<footer class="footerhome" id="bottom">
+	<!--Footer of the website with relevant links has created.-->
+	<div class="Fcontainer">
+		<div class="Frow">
+			<div class="Fcol">
+				<h4>OUR WEBSITE</h4>
+				<ul>
+					<li><a href="#commentcontent">Go To The Top</a></li>
+				</ul>
+			</div>
+			<div class="Fcol">
+				<h4>CONTACT US</h4>
+				<ul>
+					<li>sportsden@gmail.com</li>
+					<li>0123456789</li>
+				</ul>
+			</div>
+			<div class="Fcol">
+				<h4>PAGE DEVELOPER</h4>
+				<ul>
+					<li><a href="editorpage.html" target="_blank">Editor's Page</a></li>
+				</ul>
+			</div>
+			<div class="Fcol">
+				<ul>
+					<li><img src="logosnew.png" alt="SportsDen"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src = "commentsform.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+#jumpbottom {
+	padding-top: 70px;
+	margin-top: 20px;
+	margin-left: 330px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+#jumpbottom a{
+	padding-top: 50px;
+	margin-top: 20px;
+	margin-left: 330px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+#jumpbottom a:hover{
+	color: red;
+}
+.form {
+	height: 1300px;
+	width: 800px;
+	margin-top: 40px;
+	margin-left: 450px;
+}
+.scale{
+	display: flex;
+	flex-direction: row;
+}
+.scale label{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+.scale label input{
+	order: -1;
+	margin: 10px;
+	margin-left: 1px;
+}
+.required{
+	font-size: 15px;
+	color: red;
+}
+.title-div{
+	height: 150px;
+	width: 650px;
+	border-radius: 5px;
+	background-color: #FDFEFE;
+	margin: 20px;
+	padding: 50px;
+
+}
+.name-div, .satisfaction-div, .reached-div, .recommend-div{
+	height:175px;
+	border-radius: 5px;
+	width: 650px;
+	background-color: #FDFEFE;
+
+	margin: 20px;
+}
+.suggestion-div{
+	height:225px;
+	border-radius: 5px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 20px;
+}
+
+.scroll{
+	padding: 20px;
+	padding-left: 25px;
+	font-size: 15px;
+	
+}
+.option{
+	padding: 20px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	
+}
+.name{
+	padding: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+	
+}
+.scale{
+	font-size: 15px;
+	padding: 20px;
+	padding-left: 30px;
+	padding-bottom: 16px;
+}
+.scale1{
+	font-size: 15px;
+	padding: 20px;
+	padding-left: 30px;
+	padding-bottom: 16px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+
+}
+button{
+	height: 40px;
+	width: 100px;
+	background-color: red;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding-left: 150px;
+	padding: 10px;
+	position: center;
+	margin: 15px;
+	color: #fff;
+}
+button:hover{
+	box-shadow: 1px 1px 8px white,
+				1px 1px 8px white;
+}
+.final-div h2{
+	text-align: center;
+	padding-top: 30px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.term{
+	color: #fff;
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+.never{
+	color: #fff;
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+}
+input[type=text], select{
+	
+	font-size: 15px;
+	width: 95%;
+	padding: 12px 12px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	margin:-8px -4px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=radio]{
+	font-size: 15px;
+	padding-left: 20px;
+}
+textarea{
+	padding: 5px 15px;
+	border: 1px solid #5c5c5c;
+	border-radius: 3px;
+	background: #fff;
+	font-size: 15px;
+	width: 50%;
+	margin: 4px 0;
+	margin-left:40px;
+}

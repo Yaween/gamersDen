@@ -1,0 +1,181 @@
+*{
+	scroll-behavior: smooth;
+}
+.myvid{
+	margin:0;
+	width: 100%;
+	height: 100%;
+	border-bottom: 2px solid #fff;
+}
+.textEsports{
+	color: #fff;
+	position: absolute;
+	bottom: 15%;
+	padding: 0 8%;
+}
+.textEsports h3{
+	font-size: 30px;
+	font-weight: 600;
+}
+.textEsports h1{
+	font-size: 190px;
+	line-height: 160px;
+	margin-left: -10px;
+	color: red;
+	-webkit-text-stroke: 4px #fff;
+}
+.textEsports .row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 30px; 
+}
+.textEsports a{
+	background: black;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-right: 20px;
+	border: 4px solid #fff;
+	border-radius: 5px;
+	display: flex;
+	align-items:center;
+}
+.textEsports a:hover{
+	color: red;
+	transform: translateY(-5px);
+	border: 4px solid red;
+	box-shadow: 1px 1px 8px red,
+				1px 1px 8px red;
+}
+#abt-espo{
+	color: red;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.EsportInfo{
+	width: 100%;
+	padding: 100px 0px;	
+}
+.EsportInfo img{
+	border-radius: 10px;
+	border: 3px solid #fff;
+	height: 260px;
+	width: 400px;
+}
+.about-text{
+	width: 600px;
+}
+.EsportInfo{
+	width: 1130px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #fff;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text p{
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.examples{
+	width: 100%;
+	padding: 100px 0px;
+}
+.extitle h2{
+	color: #fff;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.containersports{
+	position: relative;
+	width: 1200px;
+	height: 550px;
+	margin: 50px auto;
+}
+.containersports .box{
+	position: relative;
+	width: calc(400px - 30px);
+	height: 425px;
+	background: #000;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 4px solid #fff;
+	border-radius: 5px;
+	transition: 0.6s;
+}
+.containersports .box:hover{
+	border: 4px solid red;
+	box-shadow: 1px 1px 15px red,
+				1px 1px 15px red;
+}
+.containersports .box .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.8s;
+	z-index: 1;
+}
+.containersports .box:hover .icon{
+	top: 450px;
+	left: calc(50% -40px);
+	width: 180px;
+	height: 180px;
+}
+.containersports .box .icon img {
+	width: 365px;
+	height: 500px;
+}
+.containersports .box .contentsports{
+	position: absolute;
+	top: 5px;
+	height: 100%;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.containersports .box:hover .contentsports{
+	top:2px;
+}
+.containersports .box .contentsports h3{
+	margin: 0;
+	padding: 0;
+	color: red;
+	font-size: 50px;
+}
+.containersports .box .contentsports p{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 16px;
+}
+.page2 p{
+	color: #fff;
+	font-size:100px;
+	text-align: center;
+}
+.page2 h1{
+	color: #fff;
+	font-size:25px;
+	text-align: center;
+}
+	
